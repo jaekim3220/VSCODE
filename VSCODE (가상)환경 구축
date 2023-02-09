@@ -1,0 +1,19 @@
+가상 환경은 생성된 가상 환경 파일 내에 있는 Scripts 파일 속 activate를 활성화 해서 사용한다고 생각하면 이해가 될 수도 있음
+
+1 - 가상환경을 구축할 파일에서 cmd를 이용해 python -m venv 가상환경이름
+2 - cd 가상환경이름/Scripts 
+3 -  activate
+1~3 과정으로 가상환경 구축, 실행
+
+VSCODE에서 가상환경 생성, 사용 (command prompt에서)
+python -m venv 가상환경이름 -> .\가상환경이름\Scripts\activate
+이후 우측 아래에서 사용할 환경 선택
+아님 Ctrl + Shift + P 키를 눌러 ">select Interpreter"로 검색, 사용할 환경 검색
+
+cmd에서 사용한 가상환경 VSCODE에서 사용
+사용할 가상환경의 activate.bat의 경로를 입력 ex) C:\virtual\Scripts\actibate.bat
+
+VSCODE pip 리스트 확인, 초기화 하는 방법
+pip freeze로 pip stop
+requirements.txt로 txt로 리스트 확인
+pip uninstall -r requirements.txt -y로 설치된 pip 제거
