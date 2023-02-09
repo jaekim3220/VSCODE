@@ -1,7 +1,7 @@
 # readme_practice
 ---
 
-README.md 추가 방법
+마크다운(README.md) 추가 방법
 
 1. 폴더 생성 후 해당 폴더의 VSCODE를 실시
 2. git clone을 사용해 git과 폴더 연동
