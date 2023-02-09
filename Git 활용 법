@@ -2,13 +2,20 @@ Git에 자료 올리기
 
 1 - Git에 연동할 파일에 cmd를 사용해 git init을 입력해 연동
 2 - git add . 를 입력
-3 - git commit -m "" 으로 업로드 할 파일 간단 설명
+3 - git commit -m "" 으로 업로드 할 파일 간단 설명 ex) git commit -m "첫 작업"
 4 - git branch -M main으로 Main branch로 업로드 준비
 5 - git remote add origin (업로드할 git 주소)
 6 - git push -u origin main 로 git push
 
 이후 작업한 파일 올릴 경우
 git add .
-git commit -m "" 으로 변경 사항 언급
+git commit -m "" 으로 변경 사항 언급 ex) git commit -m "두 번째 작업"
 git push 로 업로드
 (이미 git에 연동된 상태이기 때문에 git init, git branch, git remote 등은 재입력할 필요 없음)
+
+팀 원이 작업한 파일 가져오기
+저장할 파일 생성 후 cmd를 해당 파일 경로 지정 후 git clone "다운받을 git 주소" ex) git clone https://github.com/xxxxxxxxxxx
+엔터 누르면 자동으로 다운
+
+업데이트된 git 가져오기
+작업물이 저장된 파일 경로에서 연 cmd에서 git pull 하면 끝
