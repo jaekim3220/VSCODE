@@ -13,7 +13,13 @@ python -m venv 가상환경이름 -> .\가상환경이름\Scripts\activate
 cmd에서 사용한 가상환경 VSCODE에서 사용
 사용할 가상환경의 activate.bat의 경로를 입력 ex) C:\virtual\Scripts\actibate.bat
 
-VSCODE pip 리스트 확인, 초기화 하는 방법
+VSCODE pip 리스트 확인
 pip freeze로 pip stop
 requirements.txt로 txt로 리스트 확인
+
+pip 일괄 설치
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+pip 초기화
 pip uninstall -r requirements.txt -y로 설치된 pip 제거
