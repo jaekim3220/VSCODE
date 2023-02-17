@@ -16,6 +16,7 @@ cmd에서 사용한 가상환경 VSCODE에서 사용
 VSCODE pip 리스트 확인
 1번(권장)
 pip list 를 통해서 설치된 라이브러리 확인
+
 2번
 pip freeze로 pip stop
 requirements.txt로 txt로 리스트 확인
