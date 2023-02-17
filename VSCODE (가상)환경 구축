@@ -26,4 +26,5 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 pip 초기화
+pip freeze > requirements.txt
 pip uninstall -r requirements.txt -y로 설치된 pip 제거
