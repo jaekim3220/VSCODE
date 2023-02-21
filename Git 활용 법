@@ -19,3 +19,8 @@ git push 로 업로드
 
 업데이트된 git 가져오기
 작업물이 저장된 파일 경로에서 연 cmd에서 git pull 하면 끝
+
+Git conflict 해결 방법
+git fetch --all
+git reset --hard origin/저장소이름(main)
+git pull origin master
