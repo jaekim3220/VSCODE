@@ -1,3 +1,7 @@
+맨 처음 git을 사용한다면 cmd에서 git 계정, 이메일을 연동한다
+git config --global user.name 본인계정이름
+git config --global user.email 본인계정이메일
+
 Git에 자료 올리기
 
 1 - Git에 연동할 파일에 cmd를 사용해 git init을 입력해 연동
