@@ -28,3 +28,12 @@ Git conflict 해결 방법
 git fetch --all
 git reset --hard origin/저장소이름(main)
 git pull origin master
+
+github branch
+"git branch 브랜치이름"으로 브랜치 생성
+"git switch 브랜치이름"으로 브랜치 변경
+git add .
+git commit -m ""
+"git push --set-upstream origin 브랜치이름"으로 해당 브랜치에 올림
+동기화
+git pull orgin 브랜치이름(main 등)
